@@ -1,0 +1,153 @@
+dodawaniiie
+
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a,b,c;
+cout<< "Podaj a "<<endl; 
+cin >>a;
+cout << "Podaj b "<<endl; 
+cin >>b;
+c=a+b;
+cout << "Suma liczb to " <<c<<endl; 
+
+	return 0;
+}
+
+
+mnnozennie
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a,b,c;
+cout<< "Podaj a "<<endl; 
+cin >>a;
+cout << "Podaj b "<<endl; 
+cin >>b;
+
+if(a>b)
+{
+	cout<<"wieksza liczba : "<<a<<endl;
+}
+else
+{
+	cout<<"wieksza liczba : "<<b<<endl;
+}
+
+	return 0;
+}
+
+relacja
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a,b;
+cout<< "Podaj a "<<endl; 
+cin >>a;
+cout << "Podaj b "<<endl; 
+cin >>b;
+
+if(a>b)
+{
+	cout<<"a>b"<<endl;
+}
+else if(a<b)
+{
+	cout<<"a<b"<<endl;
+}
+	else 	
+	{
+		cout<<"a=b"<<endl;			
+	}
+	
+
+
+	return 0;
+}
+
+wiekksza
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a,b;
+cout<< "Podaj a "<<endl; 
+cin >>a;
+cout << "Podaj b "<<endl; 
+cin >>b;
+
+if(a>b)
+{
+	cout<<"a>b "<<a<<endl;
+}
+else
+{
+	cout<<"a<b "<<b<<endl;
+}
+
+	return 0;
+}
+
+dodatnia ujemna
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a;
+cout<< "Podaj a "<<endl; 
+cin >>a;
+if(a>0)
+{
+	cout<<"1"<<endl;
+}
+else
+{
+	cout<<"0"<<endl;
+}
+
+	return 0;
+}
+
+absolutna
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) 
+
+{
+int a,b;
+cout<<"podaj a"<<endl;
+cin>>a;
+if(a>=0)
+{
+w=x;
+cout<<w<<endl;
+}
+else{
+w=-x;
+cout<<w<<endl;
+}
+return 0;
+}
+
+najwieksza liczba
+
